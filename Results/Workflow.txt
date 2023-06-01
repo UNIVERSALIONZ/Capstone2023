@@ -1,0 +1,53 @@
+['1fcc',
+ '1YCS',
+ '2F6A',
+ '1F47',
+ '2c0l',
+ '2j1k',
+ '2H1L',
+ '1a4y',
+ '3bk3',
+ '1tm1',
+ '4WHD',
+ '2i9b',
+ '1jtg',
+ '1lfd',
+ '1H26',
+ '1QZ2',
+ '3K2M',
+ '1NFI',
+ '2PTC',
+ '3nps'] - Testing data
+
+2 class system - Weak hotspots are considered hotspots
+
+Test set: Total = 162
+	3-Class: 94 Non-hotspots, 20 weak and 48 strong hotspots 
+	2-Class: 94 Non-hotspots and 68 hotspots
+
+TV set: Total = 884
+	3-Class: 503 Non-hotspots, 119 weak and 262 strong hotspots 
+	2-Class: 503 Non-hotspots and 381 hotspots
+
+cv = RepeatedKFold(n_splits=10, n_repeats=15, random_state=1) ie 15 time 10-fold repeat was performed
+
+
+
+Testing for strong hotspots:
+
+
+Test set: Total = 162
+	3-Class: 94 Non-hotspots, 20 weak and 48 strong hotspots 
+	2-Class: 114 Non-hotspots and 48 hotspots
+
+TV set: Total = 884
+	3-Class: 503 Non-hotspots, 119 weak and 262 strong hotspots 
+	2-Class: 622 Non-hotspots and 262 hotspots
+
+TV Set 77 - First study where weak and strong are together
+TV_Set 77 - Second study with weak and non-hotspots are together
+
+
+
+
+Plot no of true positives + no of true negatives (y axis) vs classifier used (x axis) for both studies

@@ -1,0 +1,111 @@
+MLP_2Class:
+	max_iteration or epoch (326) and hidden layer (9) size and other default parameters were used - Acc = 0.6790123456790124, F1 = 0.6774925177702955
+
+MLP_3Class:
+	{'hidden_layer_sizes': 9,
+ 'learning_rate': 'constant',
+ 'learning_rate_init': 0.001,
+ 'max_iter': 200,
+ 'solver': 'lbfgs'} - Acc = 0.6234567901234568, F1 = 0.5913795088855326
+
+RF_2Class:
+	{'bootstrap': True,
+ 'max_depth': 30,
+ 'max_features': 'auto',
+ 'min_samples_leaf': 2,
+ 'min_samples_split': 6,
+ 'n_estimators': 700} - Acc = 0.6666666666666666, F1 = 0.6630527210884353
+
+
+RF_3Class:
+	{'max_depth': 30,
+ 'max_features': 'auto',
+ 'min_samples_leaf': 5,
+ 'min_samples_split': 11,
+ 'n_estimators': 190} - Acc = 0.6419753086419753, F1 = 0.5887059899405578
+
+SVM:
+ {'C': 2, 'kernel': 'linear'} - Acc = 0.6728395061728395 , F1 = 0.6745206229552454
+
+LR_2Class:
+{'max_iter': 200, 'penalty': 'l2', 'solver': 'lbfgs'} - Acc = 0.6851851851851852, F1 = 0.6841070098165717
+
+LR_3Class:
+{'max_iter': 212, 'penalty': 'l2', 'solver': 'lbfgs'} - Acc = 0.6111111111111112, F1 = 0.567634605082594
+
+
+GTB_2Class:
+{'max_depth': 2,
+ 'max_features': 'sqrt',
+ 'min_samples_split': 2,
+ 'n_estimators': 250} - Acc = 0.6666666666666666, F1 = 0.6575163398692809
+
+
+GTB_3Class:
+{'max_depth': 2,
+ 'max_features': 'sqrt',
+ 'min_samples_split': 3,
+ 'n_estimators': 200} - Acc = 0.6296296296296297, F1 = 0.5782247765006385
+
+XGB_2Class:
+
+{'eta': 0.01, 'learning_rate': 0.2, 'max_depth': 4, 'n_estimators': 10} - Acc = 0.6851851851851852, F1 = 0.680034245300577
+
+
+XGB_3Class:
+
+{'eta': 0.02, 'learning_rate': 0.3, 'max_depth': 4, 'n_estimators': 7} - Acc = 0.6358024691358025, F1 = 0.5935332157554379
+
+ADA_2Class:
+
+{'learning_rate': 1.0, 'n_estimators': 100, 'random_state': None} - Acc = 0.6666666666666666, F1 = 0.6575163398692809
+
+
+ADA_3Class:
+
+{'learning_rate': 0.5, 'n_estimators': 50, 'random_state': 1} - Acc = 0.6172839506172839, F1 = 0.5671205338550518
+
+
+
+NB_2Class- Acc = 0.654320987654321, F1 = 0.6448317598644395
+
+NB_3Class- Acc = 0.6111111111111112, F1 = 0.5670896256084761
+
+
+F1 definition: https://www.analyticsvidhya.com/blog/2021/06/confusion-matrix-for-multi-class-classification/
+
+
+RF_2ClassNEW: 
+{'bootstrap': True,
+ 'max_depth': 19,
+ 'max_features': 'auto',
+ 'min_samples_leaf': 5,
+ 'min_samples_split': 5,
+ 'n_estimators': 475} - Acc = 0.7469135802469136, F1 = 0.728463312188448
+
+SVM NEW:
+{'C': 3, 'kernel': 'poly'} - Acc = 0.7037037037037037, F1 = 0.6869806714596072
+
+LR_NEW:
+{'max_iter': 90, 'penalty': 'l1', 'solver': 'liblinear'} - Acc = 0.7160493827160493, F1 = 0.6969641772920461
+
+MLP_NEW:
+{'hidden_layer_sizes': 5, 'max_iter': 200, 'solver': 'adam'} - Acc = 0.7098765432098766, F1 = 0.6774646720070505
+
+GTB_NEW:
+{'max_depth': 2,
+ 'max_features': 'sqrt',
+ 'min_samples_split': 2,
+ 'n_estimators': 100} - Acc = 0.7222222222222222, F1 = 0.701971928011711
+
+ADA_NEW:
+
+{'learning_rate': 0.7, 'n_estimators': 50} - Acc = 0.7037037037037037, F1 = 0.6837887067395264
+
+XGB_NEW:
+
+{'eta': 0.01, 'learning_rate': 0.2, 'max_depth': 4, 'n_estimators': 10} - Acc = 0.7283950617283951, F1 = 0.7130656155046399
+
+NB_NEW:
+
+Acc = 0.6666666666666666, F1 = 0.6645698427382053
